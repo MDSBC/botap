@@ -2426,7 +2426,7 @@ const namaUser = `${pushname}`
 						fs.writeFileSync('./src/welkom.json', JSON.stringify(welkom))
 						reply('❬ pronto ❭ ')
 					} else {
-						reply(' *use 1 para ativar ou 0 para desativar* \n *exemplo: ${prefix}welcome 1*')
+						reply(' *Use 1 para ativar ou 0 para desativar* \n *exemplo: ${prefix}welcome 1*')
 					}
 				case 'clone':
 				case 'clonar':
